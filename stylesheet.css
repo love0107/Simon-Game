@@ -1,0 +1,90 @@
+
+*{
+  margin: 0;
+  padding: 0;  
+}
+body{
+text-align:center;
+font-family:"Press Start 2P",cursive;
+color:peachpuff;
+background-color:#011f3f;
+
+}
+.btn-change{
+    opacity: .2;
+}
+#level-title{
+    margin:3% auto;
+   font-size: 2rem; 
+}
+.btn{
+  
+    border: 10px solid #000;
+    border-radius:20%;
+    display: inline-block;
+    width: 150px;
+    height:150px;
+    margin:25px ;
+}
+.score{
+    background-color: #384353;
+    width:150px;
+    height:50px;
+    text-align: center;
+    padding-top:30px;
+    border-radius:10px;
+    margin:20px 10px 20px auto;
+}
+.wrong{
+    background-color: #f70808;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.bg-color-gameover{
+    background-color: #db0707;
+}
+.Announce{
+    height:10rem;
+    width: 10rem;
+    top:50%;
+    left:25%;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 2.5;
+    align-items: center;
+    opacity: 0.7;
+    display:inline-block;
+    position: absolute;
+    box-shadow:12px 14px 13px black;
+    background:linear-gradient(163deg,#70aef2,#00000008);
+    border-radius: 20px;
+    border:1px solid black;
+    z-index: 2;
+}
+.Announce:hover{
+    background-color:#0b315a ;
+}
+@media(max-width:600px)
+{
+.btn
+    {
+        width: 130px;
+        height:130px;
+        margin:12px ;
+        
+    }
+}
